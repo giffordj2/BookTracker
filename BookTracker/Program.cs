@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BookTracker
 {
@@ -6,8 +7,26 @@ namespace BookTracker
     {
         static void Main(string[] args)
         {
-            Book book = GetBookInfo();
-            Console.WriteLine("The book title is " + book.Title);
+            List<Book> books = new List<Book>();
+            string userInput;
+
+            do
+            {
+                Console.WriteLine("What would you like to do?\n1. Reccomend a book\n2. See reccomended books\n3. Exit");
+                userInput = Console.ReadLine();
+
+                switch (userInput)
+                {
+                    case "1":
+                        books.Add(GetBookInfo());
+                        break;
+                    case "2":
+                        DisplayBooks(books);
+                        break;
+                    default:
+                        break;
+                }
+            } while (userInput != "3");
         }
 
         public static Book GetBookInfo()
@@ -22,6 +41,18 @@ namespace BookTracker
             string bookGenre = Console.ReadLine();
 
             return new Book(bookTitle, bookAuthor, bookGenre);
+        }
+
+        public static void DisplayBooks(List<Book> books)
+        {
+            books.ForEach(PrintBook);
+        }
+
+        public static void PrintBook(Book book)
+        {
+            Console.WriteLine("Title: " + book.Title);
+            Console.WriteLine("Author: " + book.Author);
+            Console.WriteLine("Genre: " + book.Genre);
         }
     }
 }
