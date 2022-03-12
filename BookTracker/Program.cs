@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
 
 namespace BookTracker
 {
@@ -7,8 +11,13 @@ namespace BookTracker
     {
         static void Main(string[] args)
         {
-            List<Book> books = new List<Book>();
+            string filePath = "D:\\CodeKentucky\\BookTracker\\BookTracker\\recommendedBooks.json";
+            string jsonData = File.ReadAllText(filePath);
+            List<Book> books = JsonSerializer.Deserialize<List<Book>>(jsonData)
+                      ?? new List<Book>();
             string userInput;
+
+            var options = new JsonSerializerOptions { WriteIndented = true };
 
             do
             {
@@ -27,6 +36,9 @@ namespace BookTracker
                         break;
                 }
             } while (userInput != "3");
+
+            string jsonString = JsonSerializer.Serialize(books, options);
+            File.WriteAllText(filePath, jsonString);
         }
 
         public static Book GetBookInfo()
@@ -34,7 +46,7 @@ namespace BookTracker
             Console.WriteLine("What is the title of the book?");
             string bookTitle = Console.ReadLine();
 
-            Console.WriteLine("Whos is the author of the book?");
+            Console.WriteLine("Who is the author of the book?");
             string bookAuthor = Console.ReadLine();
 
             Console.WriteLine("What genre is this book considered?");
@@ -53,6 +65,7 @@ namespace BookTracker
             Console.WriteLine("Title: " + book.Title);
             Console.WriteLine("Author: " + book.Author);
             Console.WriteLine("Genre: " + book.Genre);
+            Console.WriteLine("\n");
         }
     }
 }

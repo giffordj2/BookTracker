@@ -8,6 +8,7 @@ namespace BookTracker
 {
     class Book
     {
+        public Book() { }
         public Book(string bookTitle, string bookAuthor, string bookGenre)
         {
             Title = bookTitle;
