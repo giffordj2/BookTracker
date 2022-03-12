@@ -1,0 +1,16 @@
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.csproj.AssemblyReference.cache
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.AssemblyInfoInputs.cache
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.AssemblyInfo.cs
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.csproj.CoreCompileInputs.cache
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.exe
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.deps.json
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.runtimeconfig.json
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.runtimeconfig.dev.json
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.dll
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\ref\BookTracker.dll
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\BookTracker.pdb
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.dll
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\ref\BookTracker.dll
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.pdb
+D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.genruntimeconfig.cache
