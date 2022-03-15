@@ -11,7 +11,7 @@ namespace BookTracker
     {
         static void Main(string[] args)
         {
-            string filePath = "D:\\CodeKentucky\\BookTracker\\BookTracker\\recommendedBooks.json";
+            string filePath = "recommendedBooks.json";
             string jsonData = File.ReadAllText(filePath);
             List<Book> books = JsonSerializer.Deserialize<List<Book>>(jsonData)
                       ?? new List<Book>();

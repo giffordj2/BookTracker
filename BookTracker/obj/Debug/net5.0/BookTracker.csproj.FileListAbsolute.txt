@@ -14,3 +14,4 @@ D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.dll
 D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\ref\BookTracker.dll
 D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.pdb
 D:\CodeKentucky\BookTracker\BookTracker\obj\Debug\net5.0\BookTracker.genruntimeconfig.cache
+D:\CodeKentucky\BookTracker\BookTracker\bin\Debug\net5.0\recommendedBooks.json
