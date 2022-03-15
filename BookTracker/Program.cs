@@ -37,7 +37,7 @@ namespace BookTracker
             } while (userInput != "3");
 
             string jsonString = JsonSerializer.Serialize(books, options);
-            File.WriteAllText(filePath, jsonString);
+            File.WriteAllText(fileName, jsonString);
         }
 
         public static Book GetBookInfo()
