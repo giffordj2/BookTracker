@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 
 namespace BookTracker
@@ -11,8 +10,8 @@ namespace BookTracker
     {
         static void Main(string[] args)
         {
-            string filePath = "recommendedBooks.json";
-            string jsonData = File.ReadAllText(filePath);
+            string fileName = "recommendedBooks.json";
+            string jsonData = File.ReadAllText(fileName);
             List<Book> books = JsonSerializer.Deserialize<List<Book>>(jsonData)
                       ?? new List<Book>();
             string userInput;
