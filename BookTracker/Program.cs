@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace BookTracker
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

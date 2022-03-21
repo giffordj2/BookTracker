@@ -1,0 +1,42 @@
+[
+  {
+    "Title": "Harry Potter and the Sorcerers Stone",
+    "Author": "J K Rowling",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "Fool Moon",
+    "Author": "Jim Buthcer",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "The Warded Man",
+    "Author": "Peter V Brett",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "The Beginners Guide to C#",
+    "Author": "Eric Frick",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "Title": "Harry Potter and the Chambers of Secret",
+    "Author": "J K Rowling",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "Harry Potter and the Deathly Hollows",
+    "Author": "J K Rowling",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "The Hobbit",
+    "Author": "Tolkien",
+    "Genre": "Fantasy"
+  },
+  {
+    "Title": "Throne of Glass",
+    "Author": "Sarah J Maas",
+    "Genre": "Fantasy"
+  }
+]

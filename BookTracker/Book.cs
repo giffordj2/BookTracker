@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookTracker
 {
-    class Book
+    public class Book
     {
         public Book() { }
         public Book(string bookTitle, string bookAuthor, string bookGenre)
