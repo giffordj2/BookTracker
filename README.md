@@ -7,3 +7,4 @@ Features Implemented:
 -Creates a list, populates it with several values, retrieves at least one value, and uses it in the program.
 -Reads data from an external JSON file and uses that data in the application.
 -Implements a Regex to valiadate user input.
+-Implements 3 Unit Test.
