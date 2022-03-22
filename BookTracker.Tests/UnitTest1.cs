@@ -27,7 +27,7 @@ namespace BookTracker.Tests
         [TestMethod]
         public void TestGetBookInfo()
         {
-            var actualResult = Program.GetBookInfo();
+            var actualResult = Program.GetBookInfo(new FakeUserInput());
 
             dynamic expectedResult = new
             {
