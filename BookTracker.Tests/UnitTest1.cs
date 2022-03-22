@@ -23,5 +23,23 @@ namespace BookTracker.Tests
 
             Assert.AreEqual(isValid, false);
         }
+
+        [TestMethod]
+        public void TestGetBookInfo()
+        {
+            var actualResult = Program.GetBookInfo();
+
+            dynamic expectedResult = new
+            {
+                Title = "Game of Thrones",
+                Author = "G. R. R. Martin",
+                Genre = "Fantasy"
+             };
+
+            var actualResultString = Newtonsoft.Json.JsonConvert.SerializeObject(actualResult);
+            var expectedResultString = Newtonsoft.Json.JsonConvert.SerializeObject(expectedResult);
+
+            Assert.AreEqual(actualResultString, expectedResultString);
+        }
     }
 }
