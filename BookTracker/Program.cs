@@ -21,12 +21,12 @@ namespace BookTracker
 
             do
             {
-                Console.WriteLine("What would you like to do?(Please enter a number)\n1. Reccomend a book\n2. See reccomended books\n3. Exit");
+                Console.WriteLine("What would you like to do?(Please enter a number)\n1. Recommend a book\n2. See recommended books\n3. Exit");
                 userInputString = userInput.GetInput();
                 while (!IsValidSelection(userInputString))
                 {
                     Console.WriteLine("Please enter a valid selection");
-                    Console.WriteLine("What would you like to do?(Please enter a number)\n1. Reccomend a book\n2. See reccomended books\n3. Exit");
+                    Console.WriteLine("What would you like to do?(Please enter a number)\n1. Recommend a book\n2. See recommended books\n3. Exit");
                     userInputString = userInput.GetInput();
                 }
 
